@@ -23,14 +23,15 @@ header, footer {
     margin-left: auto;
 }
 
-.nav-bar li {
-    padding: 5px;
+.nav-bar a {
+    padding: 10px;
+    color: #E5E7EB;
 }
 
 .nav-bar h1 {
     font-size: 24px;
     color: #F9FAF8;
-    padding: 5px;
+    padding: 10px;
 }
 
 footer {
