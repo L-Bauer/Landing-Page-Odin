@@ -1,0 +1,29 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header, footer {
+    background-color: #1f2937;
+}
+
+.nav-bar {
+    display: flex;
+}
+
+.nav-bar ul {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.nav-bar h1 {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+footer {
+    display: flex;
+    color: #F9FAF8;
+    padding: 8px;
+    align-content: center;
+    justify-content: center;
+}
