@@ -37,6 +37,36 @@ header, footer {
     padding: 10px;
 }
 
+.box-B {
+    display: flex;
+}
+
+.A {
+    display: flex;
+    flex-direction: column;
+}
+
+.A h1 {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+}
+
+.A p {
+    color: #E5E7EB;
+    font-size: 18px;
+}
+
+
+.A button{
+    background-color: #3882f6;
+    color: #E5E7EB;
+}
+
+.google-image {
+    margin-left: auto;
+}
+
 footer {
     display: flex;
     color: #F9FAF8;
