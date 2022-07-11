@@ -8,11 +8,12 @@ html, body {
 
 header, footer {
     background-color: #1f2937;
-}
-
-header, article, footer {
     padding: 1em 15em;
 }
+
+/* header, footer {
+    padding: 1em 15em;
+} */
 
 .nav-bar {
     display: flex;
@@ -95,6 +96,7 @@ article h2{
     width: auto;
     height: 400px;
     align-content: space-between;
+    padding: 0em 15em;
 }
 
 .C img {
@@ -104,6 +106,7 @@ article h2{
     border: solid;
     border-width: 5px;
     border-color: #3882f6;
+    
 }
 
 .C figcaption {
@@ -111,6 +114,34 @@ article h2{
     flex: 1 1 auto;
     flex-wrap: wrap;
     padding: 5px 10px
+}
+
+.D {
+    display: flex;
+    flex-direction: column;
+    background-color: #E5E7EB;
+    align-content: center;
+    justify-content: center;
+}
+
+.D p {
+    width: 400px;
+    align-self: center;
+    justify-self: center;
+}
+
+.D h3 {
+    align-self: center;
+    justify-self: center;
+}
+
+.E {
+    display: flex;
+    align-content: space-around;
+    background-color: #3882f6;
+    margin: 50px 100px;
+    padding: 10px;
+    border-radius: 10px;
 }
 
 footer {
